@@ -61,9 +61,9 @@ public class Robot extends IterativeRobot {
     
     public double threshold(double input)	{
     	if(input > 1)	{
-    		return (double) 1;
+    		return 1;
     	}	else if(input < -1)	{
-    		return (double) -1;
+    		return -1;
     	}	else	{
     		return input;
     	}
